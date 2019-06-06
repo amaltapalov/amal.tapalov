@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+// import ThemeToggle from "./ThemeToggle"
 
 import { rhythm, scale } from "../utils/typography"
 
