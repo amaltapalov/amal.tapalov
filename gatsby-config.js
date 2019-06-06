@@ -12,15 +12,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/content/`,
         name: `blog`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/assets`,
-        name: `assets`,
+        name: "assets",
+        path: `${__dirname}/content/`,
       },
     },
     {
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/favicon.png`,
+        icon: `./content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-offline`,
